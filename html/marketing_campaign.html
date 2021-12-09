@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- BEGIN HEAD -->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description" content="Responsive Admin Template" />
+    <meta name="author" content="RedstarHospital" />
+    <title>CHESA</title>
+    <!-- google font -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- icons -->
+    <link
+      href="../assets/simple-line-icons/simple-line-icons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!--bootstrap -->
+
+    <link
+      href="../assets/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Material Design Lite CSS -->
+    <link rel="stylesheet" href="../assets/material/material.min.css" />
+    <link rel="stylesheet" href="css/material_style.css" />
+    <!-- Theme Styles -->
+    <link
+      href="css/theme_style.css"
+      rel="stylesheet"
+      id="rt_style_components"
+      type="text/css"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/theme-color.css" rel="stylesheet" type="text/css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  </head>
+  <!-- END HEAD -->
+
+  <body
+    class="
+      page-header-fixed
+      sidemenu-closed-hidelogo
+      page-content-white page-md
+      header-white
+      white-sidebar-color
+      logo-indigo
+    "
+  >
+    <div class="page-wrapper">
+      <!-- start header -->
+      <div class="page-header navbar navbar-fixed-top">
+        <div class="page-header-inner">
+          <!-- logo start -->
+          <div class="page-logo">
+            <a href="index.html">
+              <span class="logo-icon fa fa-stethoscope fa-rotate-45"></span>
+              <span class="logo-default">CHESA</span>
+            </a>
+          </div>
+          <!-- logo end -->
+          <ul class="nav navbar-nav navbar-left in">
+            <li>
+              <a href="#" class="menu-toggler sidebar-toggler"
+                ><i class="icon-menu"></i
+              ></a>
+            </li>
+          </ul>
+          <form class="search-form-opened" action="#" method="GET">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search..."
+                name="query"
+              />
+              <span class="input-group-btn">
+                <a href="javascript:;" class="btn submit">
+                  <i class="icon-magnifier"></i>
+                </a>
+              </span>
+            </div>
+          </form>
+          <!-- start mobile menu -->
+          <a
+            href="javascript:;"
+            class="menu-toggler responsive-toggler"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span></span>
+          </a>
+          <!-- end mobile menu -->
+          <!-- start header menu -->
+          <div class="top-menu">
+            <ul class="nav navbar-nav pull-right">
+              <!-- start notification dropdown -->
+              <li
+                class="dropdown dropdown-extended dropdown-notification"
+                id="header_notification_bar"
+              >
+                <a
+                  href="javascript:;"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  data-hover="dropdown"
+                  data-close-others="true"
+                >
+                  <i class="fa fa-bell-o"></i>
+                  <span class="badge headerBadgeColor1"> 6 </span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="external">
+                    <h3><span class="bold">Notifications</span></h3>
+                    <span class="notification-label purple-bgcolor">New 6</span>
+                  </li>
+                  <li>
+                    <ul
+                      class="dropdown-menu-list small-slimscroll-style"
+                      data-handle-color="#637283"
+                    >
+                      <li>
+                        <a href="javascript:;">
+                          <span class="time">just now</span>
+                          <span class="details">
+                            <span
+                              class="notification-icon circle deepPink-bgcolor"
+                              ><i class="fa fa-check"></i
+                            ></span>
+                            <b>Sanjay </b>Requested Appointment.
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <span class="time">3 mins</span>
+                          <span class="details">
+                            <span
+                              class="notification-icon circle purple-bgcolor"
+                              ><i class="fa fa-user o"></i
+                            ></span>
+                            <b>Sameer's </b>Appointment fixed
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <span class="time">7 mins</span>
+                          <span class="details">
+                            <span class="notification-icon circle blue-bgcolor"
+                              ><i class="fa fa-comments-o"></i
+                            ></span>
+                            <b>Sneha Jogi </b>sent you a message.
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <span class="time">12 mins</span>
+                          <span class="details">
+                            <span class="notification-icon circle pink"
+                              ><i class="fa fa-heart"></i
+                            ></span>
+                            <b>Ravi Patel </b>Requested Appointment.
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <span class="time">15 mins</span>
+                          <span class="details">
+                            <span class="notification-icon circle yellow"
+                              ><i class="fa fa-warning"></i
+                            ></span>
+                            Warning!
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <span class="time">10 hrs</span>
+                          <span class="details">
+                            <span class="notification-icon circle red"
+                              ><i class="fa fa-times"></i
+                            ></span>
+                            Appointment Cancelled.
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="dropdown-menu-footer">
+                      <a href="javascript:void(0)"> All notifications </a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- end notification dropdown -->
+
+              <!-- start manage user dropdown -->
+              <li class="dropdown dropdown-user">
+                <a
+                  href="javascript:;"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  data-hover="dropdown"
+                  data-close-others="true"
+                >
+                  <img alt="" class="img-circle" src="img/dp.jpg" />
+                  <span class="username username-hide-on-mobile"> Sam </span>
+                  <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-default">
+                  <li>
+                    <a href="user_profile.html">
+                      <i class="icon-user"></i> Profile
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="icon-settings"></i> Settings </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="icon-directions"></i> Help </a>
+                  </li>
+                  <li class="divider"></li>
+
+                  <li>
+                    <a href="login.html">
+                      <i class="icon-logout"></i> Log Out
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- end manage user dropdown -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end header -->
+      
+      <!-- start page container -->
+      <div class="page-container">
+        <!-- start sidebar menu -->
+			<div class="sidebar-container">
+				<div class="sidemenu-container navbar-collapse collapse fixed-menu">
+					<div id="remove-scroll" class="left-sidemenu">
+						<ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false" data-auto-scroll="true"
+						 data-slide-speed="200" style="padding-top: 20px">
+							<li class="sidebar-toggler-wrapper hide">
+								<div class="sidebar-toggler">
+									<span></span>
+								</div>
+							</li>
+							
+							<li class="nav-item start active open">
+								<a href="index.html" class="nav-link nav-toggle">
+									<i class="material-icons">dashboard</i>
+									<span class="title">Dashboard</span>
+									<span class="selected"></span>
+									
+								</a>
+								
+							</li>
+							
+							<li class="nav-item  ">
+								<a href="view_appointment.html" class="nav-link nav-toggle">
+									<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="calendar" class="svg-inline--fa fa-calendar" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z"></path></svg>
+									<span class="title">Appointments</span><span class=""></span></a>
+								
+							</li>
+							
+							
+							<li class="nav-item  ">
+								<a href="all_patients.html" class="nav-link nav-toggle"> 
+									<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-group" class="svg-inline--fa fa-user-group" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M224 256c70.7 0 128-57.31 128-128S294.7 0 224 0C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3c-95.73 0-173.3 77.6-173.3 173.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM479.1 320h-73.85C451.2 357.7 480 414.1 480 477.3C480 490.1 476.2 501.9 470 512h138C625.7 512 640 497.6 640 479.1C640 391.6 568.4 320 479.1 320zM432 256C493.9 256 544 205.9 544 144S493.9 32 432 32c-25.11 0-48.04 8.555-66.72 22.51C376.8 76.63 384 101.4 384 128c0 35.52-11.93 68.14-31.59 94.71C372.7 243.2 400.8 256 432 256z"></path></svg>
+									<span class="title">My Patients</span> <span class=""></span>
+								</a>
+								
+							</li>
+
+							
+				
+							<li class="nav-item  ">
+								<a href="schedule.html" class="nav-link nav-toggle"> <i class="material-icons"><span class="material-icons">access_time</span></i>
+									<span class="title">Schedule</span>
+								</a>
+							</li>
+
+
+							
+
+
+							<li class="nav-item  ">
+								<a href="payments.html" class="nav-link nav-toggle"> <i class="material-icons"><span class="material-icons">people_alt</span></i>
+									<span class="title">Bill Management</span>
+								</a>
+							</li>
+
+							<li class="nav-item  ">
+								<a href="expense.html" class="nav-link nav-toggle"> 
+									<i class="material-icons"><span class="material-icons">calculate</span></i>
+									<span class="title">Expense Management</span>
+								</a>
+							</li>
+
+							<li class="nav-item  ">
+								<a href="" class="nav-link nav-toggle"> <i class="material-icons"><span class="material-icons">chat_bubble_outline</span></i>
+									<span class="title">Communication</span>  <span class="arrow"></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item ">
+										<a href="sms-email.html" class="nav-link "> <span class="title">Send SMS/Email</span>
+										</a>
+									</li>
+									<li class="nav-item  ">
+										<a href="sms-email-template.html" class="nav-link "> <span class="title">SMS & Email Template</span>
+										</a>
+									</li>
+									<li class="nav-item  ">
+										<a href="smsreport.html" class="nav-link "> <span class="title">SMS Report</span>
+										</a>
+									</li>
+                                    <li class="nav-item  ">
+										<a href="marketing-campaign.html" class="nav-link "> <span class="title">Marketing Campaign</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item  ">
+								<a href="" class="nav-link nav-toggle"> <i class="material-icons"><span class="material-icons">signal_cellular_alt</span></i>
+									<span class="title">Financial Analytics</span>
+								</a>
+							</li>
+
+							<li class="nav-item  ">
+								<a href="#" class="nav-link nav-toggle"> <i class="material-icons">engineering</i>
+									<span class="title">Staff Management</span> <span class="arrow"></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item  ">
+										<a href="all_staffs.html" class="nav-link "> <span class="title">Staff List</span>
+										</a>
+									</li>
+
+									
+									
+									<li class="nav-item  ">
+										<a href="add_staff.html" class="nav-link "> <span class="title">Add Staff</span>
+										</a>
+									</li>
+									
+									
+								</ul>
+							</li>
+
+							<li class="nav-item  ">
+								<a href="" class="nav-link nav-toggle"> <i class="material-icons"><span class="material-icons">pages</span></i>
+									<span class="title">Stock Management</span>  <span class="arrow"></span>
+								</a>
+                                <ul class="sub-menu">
+                                <li class="nav-item  ">
+										<a href="categories.html" class="nav-link "> <span class="title">Categories</span>
+										</a>
+									</li>
+									<li class="nav-item  ">
+										<a href="addproduct.html" class="nav-link "> <span class="title">Add Product</span>
+										</a>
+									</li>
+									<li class="nav-item  ">
+										<a href="printbarcode.html" class="nav-link "> <span class="title">Print Barcode</span>
+										</a>
+									</li>
+									<li class="nav-item  ">
+										<a href="managesuppliers.html" class="nav-link "> <span class="title">Manage Suppliers</span>
+										</a>
+									</li>
+                                    <li class="nav-item  ">
+										<a href="managestock.html" class="nav-link "> <span class="title">Manage Stock</span>
+										</a>
+									</li>
+                                    <li class="nav-item  ">
+										<a href="purchaseinvoice.html" class="nav-link "> <span class="title">Purchase Invoice</span>
+										</a>
+									</li>
+                                    <li class="nav-item  ">
+										<a href="dispenseindent.html" class="nav-link "> <span class="title">Dispense Indent</span>
+										</a>
+									</li>
+                                      <li class="nav-item  ">
+										<a href="inventoryreport.html" class="nav-link "> <span class="title">Inventory Report</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+
+
+							<li class="nav-item  ">
+								<a href="" class="nav-link nav-toggle"> <i class="material-icons"><span class="material-icons">settings</span></i>
+									<span class="title">Settings</span>
+								</a>
+							</li>
+
+							<li class="nav-item  ">
+								<a href="" class="nav-link nav-toggle"> <i class="material-icons"><span class="material-icons">logout</span></i>
+									<span class="title">logout</span>
+								</a>
+							</li>
+
+
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end sidebar menu -->
+        <!-- start page content -->
+        <div class="page-content-wrapper">
+          <div class="page-content">
+            <div class="page-bar">
+              <div class="page-title-breadcrumb">
+                <div class="pull-left">
+                  <div class="page-title">Patient Profile</div>
+                </div>
+                <ol class="breadcrumb page-breadcrumb pull-right">
+                  <li>
+                    <i class="fa fa-home"></i>&nbsp;<a
+                      class="parent-item"
+                      href="index.html"
+                      >Home</a
+                    >&nbsp;<i class="fa fa-angle-right"></i>
+                  </li>
+                  <li>
+                    <a class="parent-item" href="#">My Patient</a>&nbsp;<i
+                      class="fa fa-angle-right"
+                    ></i>
+                  </li>
+                  <li class="active">Patient Profile</li>
+                </ol>
+              </div>
+            </div>
+            
+
+                <!-- BEGIN PROFILE CONTENT -->
+            
+                  <div class="row">
+                    <div class="col-md-12">
+							<div class="tabbable-line">
+                        <!-- Nav tabs -->
+                        
+                          <ul class="nav customtab nav-tabs" role="tablist">
+                            <li class="nav-item">
+                              <a
+                                href="#tab1"
+                                class="nav-link active"
+                                data-toggle="tab"
+                                >Appointments</a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a href="#tab2" class="nav-link" data-toggle="tab"
+                                >Prescriptions</a
+                              >
+                            </li>
+                            <li class="nav-item">
+                                <a href="#tab3" class="nav-link" data-toggle="tab"
+                                  >Medical Records</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a href="#tab4" class="nav-link" data-toggle="tab"
+                                  >Billing</a
+                                >
+                              </li>
+
+                          </ul>
+                        </div>
+                   
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div
+                            class="tab-pane active fontawesome-demo"
+                            id="tab1"
+                          >
+                            
+                              
+                               
+                                
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                      <div class="card-box">
+                                       
+                                        <div class="card-body row">
+                                          <div class="col-lg-4 p-t-20">
+                                            <div class="mdl-textfield mdl-js-textfield">
+                                              <input
+                                                class="mdl-textfield__input"
+                                                type="text"
+                                                id="text1"
+                                              />
+                                              <label class="mdl-textfield__label" for="text1"
+                                                >Patient Name</label
+                                              >
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-4 p-t-20">
+                                            <div class="mdl-textfield mdl-js-textfield">
+                                              <input
+                                                class="mdl-textfield__input"
+                                                type="text"
+                                                pattern="-?[0-9]*(\.[0-9]+)?"
+                                                id="text2"
+                                              />
+                                              <label class="mdl-textfield__label" for="text2">
+                                                Mobile Number</label
+                                              >
+                                              <span class="mdl-textfield__error"
+                                                >Number required!</span
+                                              >
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-4 p-t-20">
+                                            <div class="mdl-textfield mdl-js-textfield">
+                                              <input
+                                                class="mdl-textfield__input"
+                                                type="text"
+                                                id="text3"
+                                              />
+                                              <label class="mdl-textfield__label" for="text3">
+                                                Email Address</label
+                                              >
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                              <div class="table-responsive m-t-40">
+                                <table class="table table-hover table-checkable order-column full-width" id="example4">
+                                    <thead>
+                                        <tr>
+                                                    
+                                            <th class="">Dr.</th>
+                                            <th class="center"> Doctor </th>
+                                            
+                                            <th class="center"> Appt Date </th>
+                                            <th class="center"> Booking Date </th>
+                                            <th class="center"> Amount </th>
+                                            <th class="center"> Follow Up </th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Action </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-success">Pending</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-warning">Completed</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-danger">Cancelled</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-success">Pending</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-warning">Completed</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-danger">Cancelled</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-success">Pending</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-warning">Completed</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-danger">Cancelled</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+                                        
+
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-success">Pending</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-warning">Completed</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                       
+                                            <td class="patient-img">
+                                                <img src="img/user/user6.jpg" alt="">
+                                            </td>
+                                            
+                                            <td class="center">Dr. Shilika</td>
+                                            <td class="center">20 Dec 2021</td>
+                                            <td class="center">15 Dec 2021</td>
+                                            <td class="center">Rs.1000</td>
+                                            <td class="center">30 Dec 2021</td>
+                                            <td class="center"><span class="label label-sm label-danger">Cancelled</span></td>
+                                            <td class="center">
+                                            <div class="dropdown dropdown-quick">
+                                                     <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                    <i class="material-icons">more_vert</i>
+                                                     </a>
+                                                       </div>
+                                                </td>
+                                        </tr>
+                            
+                                        
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                            </div>
+                          </div>
+                          <div class="tab-pane" id="tab2">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="full-width p-rl-20">
+                                 
+                                    <div class="table-scrollable">
+                                        <table class="table table-hover table-checkable order-column full-width" id="example4">
+                                            <thead>
+                                                <tr> <th class="center"> Date </th>
+                                                     <th class="center"> Name </th> 
+                                                     <th class="center"> Created By </th>
+                                                      <th class="center"> Action </th> 
+                                                    </tr> 
+                                                </thead> 
+                                                <tbody>
+<tr class="odd gradeX">
+    <td class="center">20 Dec 2021</td>
+    <td class="center">Prescription1</td>
+                                                            
+            <td class="center">Dr. Shilika</td> 
+            <td class="center"> 
+                <div class="dropdown dropdown-quick"> 
+                    <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                        <i class="material-icons">more_vert</i>
+                        </a>
+                     </div> 
+                    </td>
+                 </tr>
+                        <tr class="odd gradeX">
+                             <td class="center">20 Dec 2021</td>
+                            <td class="center">Prescription1</td>
+                                                                                     
+                                    <td class="center">Dr. Shilika</td>
+                                    <td class="center"> 
+                                        <div class="dropdown dropdown-quick">
+                                             <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                 <i class="material-icons">more_vert</i>
+                                                </a> 
+                                            </div> 
+                                        </td>
+                                        </tr>
+                                        <tr class="odd gradeX"> 
+                                            <td class="center">20 Dec 2021</td>
+                                              <td class="center">Prescription1</td> 
+                                                                                                   
+                                                <td class="center">Dr. Shilika</td>
+                                                    <td class="center">
+                                                        <div class="dropdown dropdown-quick">
+                                                            <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                                <i class="material-icons">more_vert</i> 
+                                                            </a> 
+                                                        </div>
+                                                     </td> 
+                                                     </tr>
+
+                                                     <tr class="odd gradeX">
+                                                        <td class="center">20 Dec 2021</td>
+                                                        <td class="center">Prescription1</td>
+                                                                                                                
+                                                                <td class="center">Dr. Shilika</td> 
+                                                                <td class="center"> 
+                                                                    <div class="dropdown dropdown-quick"> 
+                                                                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                                            <i class="material-icons">more_vert</i>
+                                                                            </a>
+                                                                         </div> 
+                                                                        </td>
+                                                                     </tr>
+                                                                            <tr class="odd gradeX">
+                                                                                 <td class="center">20 Dec 2021</td>
+                                                                                <td class="center">Prescription1</td>
+                                                                                                                                         
+                                                                                        <td class="center">Dr. Shilika</td>
+                                                                                        <td class="center"> 
+                                                                                            <div class="dropdown dropdown-quick">
+                                                                                                 <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton">
+                                                                                                     <i class="material-icons">more_vert</i>
+                                                                                                    </a> 
+                                                                                                </div> 
+                                                                                            </td>
+                                                                                            </tr>
+                                                                                            <tr class="odd gradeX"> 
+                                                                                                <td class="center">20 Dec 2021</td>
+                                                                                                  <td class="center">Prescription1</td> 
+                                                                                                                                                       
+                                                                                                    <td class="center">Dr. Shilika</td>
+                                                                                                        <td class="center">
+                                                                                                            <div class="dropdown dropdown-quick">
+                                                                                                                <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                                                                                    <i class="material-icons">more_vert</i> 
+                                                                                                                </a> 
+                                                                                                            </div>
+                                                                                                         </td> 
+                                                                                                         </tr>
+                                                    </tbody>
+                                                </table>
+
+
+
+                                                
+                                                
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                       
+                    
+                        
+
+<div class="tab-pane" id="tab3">
+    <div class="container-fluid">
+        <div class="row">
+         <div class="full-width p-rl-20">
+            <button type="button" class="btn btn-circle btn-warning pull-right"><i class="fa fa-plus"></i> Add Medical Records </button>
+                                     
+            <div class="table-scrollable">
+                <table class="table table-hover table-checkable order-column full-width" id="example4">
+                    <thead>
+                        <tr> <th class="center"> ID </th>
+                                <th class="center"> Date </th> 
+                                <th class="center"> Description </th>
+                                <th class="center"> Attachment </th> 
+                                <th class="center"> Created By </th> 
+                                <th class="center"> Action </th> 
+                            </tr> 
+                         </thead> 
+                        <tbody>
+    <tr class="odd gradeX">
+        <td class="center">#IDM2001</td>
+        <td class="center">14 Dec,2021</td>
+        <td class="center">Dental Filling</td>
+        <td class="center">DentalFilling.pdf</td>
+        <td class="center">Dr Shilika</td> 
+                <td class="center"> 
+                    <div class="dropdown dropdown-quick"> 
+                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                            <i class="material-icons">more_vert</i>
+                            </a>
+                         </div> 
+                        </td>
+                     </tr>
+
+                     <tr class="odd gradeX">
+                        <td class="center">#IDM2002</td>
+                        <td class="center">31 Dec,2021</td>
+                        <td class="center">Teeth Cleaning</td>
+                        <td class="center">TeethCleaning.pdf</td>
+                        <td class="center">Dr Shilika</td> 
+                                <td class="center"> 
+                                    <div class="dropdown dropdown-quick"> 
+                                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                            <i class="material-icons">more_vert</i>
+                                            </a>
+                                         </div> 
+                                        </td>
+                                     </tr>
+
+
+                                     <tr class="odd gradeX">
+                                        <td class="center">#IDM2003</td>
+                                        <td class="center">24 Dec,2021</td>
+                                        <td class="center">Dental Removing</td>
+                                        <td class="center">DentalRemoving.pdf</td>
+                                        <td class="center">Dr Shilika</td> 
+                                                <td class="center"> 
+                                                    <div class="dropdown dropdown-quick"> 
+                                                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                            <i class="material-icons">more_vert</i>
+                                                            </a>
+                                                         </div> 
+                                                        </td>
+                                                     </tr>
+                                                    
+                                                    
+    
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                                <div class="tab-pane" id="tab4">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                         <div class="full-width p-rl-20">
+                                            <button type="button" class="btn btn-circle btn-warning pull-right"><i class="fa fa-plus"></i> Add Billing </button>
+                                                                     
+                                            <div class="table-scrollable">
+                                                <table class="table table-hover table-checkable order-column full-width" id="example4">
+                                                    <thead>
+                                                        <tr> <th class="center"> Invoice No </th>
+                                                                <th class="center"> Doctor </th> 
+                                                                <th class="center"> Amount </th>
+                                                                <th class="center"> Paid On </th> 
+                                                                <th class="center"> Action </th> 
+                                                            </tr> 
+                                                         </thead> 
+                                                        <tbody>
+                                    <tr class="odd gradeX">
+                                        <td class="center">#INV2001</td>
+                                        <td class="center">Dr Shilika</td>
+                                        <td class="center">1000 Rs.</td>
+                                        <td class="center">14 Dec,2021</td>
+                                        
+                                                <td class="center"> 
+                                                    <div class="dropdown dropdown-quick"> 
+                                                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                            <i class="material-icons">more_vert</i>
+                                                            </a>
+                                                         </div> 
+                                                        </td>
+                                                     </tr>
+                                
+                                                     <tr class="odd gradeX">
+                                                        <td class="center">#INV2002</td>
+                                                        <td class="center">Dr Shilika</td>
+                                                        <td class="center">1000 Rs.</td>
+                                                        <td class="center">14 Dec,2021</td>
+                                                        
+                                                                <td class="center"> 
+                                                                    <div class="dropdown dropdown-quick"> 
+                                                                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                                            <i class="material-icons">more_vert</i>
+                                                                            </a>
+                                                                         </div> 
+                                                                        </td>
+                                                                     </tr>
+                                
+                                
+                                                                     <tr class="odd gradeX">
+                                                                        <td class="center">#INV2003</td>
+                                                                        <td class="center">Dr Shilika</td>
+                                                                        <td class="center">1000 Rs.</td>
+                                                                        <td class="center">14 Dec,2021</td>
+                                                                        
+                                                                                <td class="center"> 
+                                                                                    <div class="dropdown dropdown-quick"> 
+                                                                                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                                                            <i class="material-icons">more_vert</i>
+                                                                                            </a>
+                                                                                         </div> 
+                                                                                        </td>
+                                                                                     </tr>
+
+                                                                                     <tr class="odd gradeX">
+                                                                                        <td class="center">#INV2003</td>
+                                                                                        <td class="center">Dr Shilika</td>
+                                                                                        <td class="center">1000 Rs.</td>
+                                                                                        <td class="center">14 Dec,2021</td>
+                                                                                        
+                                                                                                <td class="center"> 
+                                                                                                    <div class="dropdown dropdown-quick"> 
+                                                                                                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                                                                            <i class="material-icons">more_vert</i>
+                                                                                                            </a>
+                                                                                                         </div> 
+                                                                                                        </td>
+                                                                                                     </tr>
+
+
+                                                                                                     <tr class="odd gradeX">
+                                                                                                        <td class="center">#INV2003</td>
+                                                                                                        <td class="center">Dr Shilika</td>
+                                                                                                        <td class="center">1000 Rs.</td>
+                                                                                                        <td class="center">14 Dec,2021</td>
+                                                                                                        
+                                                                                                                <td class="center"> 
+                                                                                                                    <div class="dropdown dropdown-quick"> 
+                                                                                                                        <a id="headerSettingButton" class="mdl-button mdl-js-button mdl-button" data-upgraded="MaterialButton"> 
+                                                                                                                            <i class="material-icons">more_vert</i>
+                                                                                                                            </a>
+                                                                                                                         </div> 
+                                                                                                                        </td>
+                                                                                                                     </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+
+                                                                        
+
+
+
+                                                            
+                                                                                    
+                                                                                    
+                                    
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                
+
+
+                          
+                        
+
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END PROFILE CONTENT -->
+              </div>
+            </div>
+          </div>
+          <!-- end page content -->
+         
+                
+        </div>
+        <!-- end page container -->
+        <!-- start footer -->
+        <div class="page-footer">
+			<div class="page-footer-inner"> 2021 &copy; All Rights Reserved by 
+				<a href="mailto:chesadentalcare@gmail.com" target="_top" class="makerCss">Chesa Dental Care</a>
+			</div>
+			<div class="scroll-to-top">
+				<i class="icon-arrow-up"></i>
+			</div>
+		</div>
+        <!-- end footer -->
+      </div>
+    </div>
+    <!-- start js include path -->
+    <script src="../assets/jquery.min.js"></script>
+    <script src="../assets/popper/popper.js"></script>
+    <script src="../assets/jquery.blockui.min.js"></script>
+    <script src="../assets/jquery.slimscroll.js"></script>
+    <script src="../assets/jquery.sparkline.min.js"></script>
+    <!-- bootstrap -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+    <!-- Common js-->
+    <script src="../assets/app.js"></script>
+    <script src="../assets/profile.js"></script>
+    <script src="../assets/layout.js"></script>
+    <script src="../assets/theme-color.js"></script>
+    <!-- Material -->
+    <script src="../assets/material/material.min.js"></script>
+    <!-- end js include path -->
+  </body>
+</html>
